@@ -115,40 +115,6 @@ Choose one of these free online database providers:
 
 ---
 
-## 🔵 Option 4: Supabase PostgreSQL
-
-### **Setup Steps:**
-1. **Create Supabase Account**
-   - Go to [supabase.com](https://supabase.com)
-   - Sign up for free
-
-2. **Create Project**
-   - Click "New project"
-   - Choose organization
-   - Set database password
-
-3. **Get Connection Details**
-   - Go to Settings → Database
-   - Copy connection details
-
-4. **Update .env.local**
-   ```env
-   DATABASE_URL=postgresql://postgres:password@db.project.supabase.co:5432/postgres
-   DB_HOST=db.project.supabase.co
-   DB_PORT=5432
-   DB_USER=postgres
-   DB_PASSWORD=your-supabase-password
-   DB_NAME=postgres
-   
-   JWT_SECRET=your-super-secret-jwt-key
-   EMAIL_USER=your-email@gmail.com
-   EMAIL_PASS=your-gmail-app-password
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your-nextauth-secret-key
-   ```
-
----
-
 ## 🧪 Test Your Connection
 
 After setting up your online database:
