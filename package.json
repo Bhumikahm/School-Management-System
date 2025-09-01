@@ -10,8 +10,10 @@
     "lint": "next lint",
     "db:init": "mysql -u root -p < scripts/init-db.sql",
     "db:test": "node scripts/test-db.js",
+    "db:test:postgres": "node scripts/test-postgres.js",
     "setup": "npm install && echo 'Please create .env.local file and run npm run db:test'",
-    "deploy:render": "npm run build && echo 'Build completed! Deploy to Render now.'"
+    "deploy:render": "npm run build && echo 'Build completed! Deploy to Render now.'",
+    "deploy:railway": "npm run build && echo 'Build completed! Deploy to Railway now.'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -48,6 +50,7 @@
     "@types/multer": "^2.0.0",
     "@types/node": "20.6.2",
     "@types/nodemailer": "^7.0.1",
+    "@types/pg": "^8.15.5",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
@@ -68,6 +71,7 @@
     "next": "13.5.1",
     "next-themes": "^0.3.0",
     "nodemailer": "^7.0.6",
+    "pg": "^8.16.3",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-day-picker": "^8.10.1",

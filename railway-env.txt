@@ -1,0 +1,23 @@
+# Railway Environment Variables
+# Copy these to your Railway environment variables
+
+# Database Configuration (PostgreSQL on Railway)
+DB_HOST=containers-us-west-123.railway.app
+DB_PORT=6543
+DB_USER=root
+DB_PASSWORD=yourpassword123
+DB_NAME=school_system
+
+# JWT Configuration
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+
+# Email Configuration (Gmail)
+EMAIL_USER=bhumikahm2003@gmail.com
+EMAIL_PASS=kqnvrzvqdbsvzjqu
+
+# Next.js Configuration
+NEXTAUTH_URL=https://your-app-name.railway.app
+NEXTAUTH_SECRET=your-nextauth-secret-key
+
+# Production Settings
+NODE_ENV=production
