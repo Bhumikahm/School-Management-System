@@ -1,0 +1,22 @@
+# Production Environment Variables for Render
+# Copy these values to your Render environment variables
+
+# Database Configuration (Use Render's PostgreSQL or external MySQL)
+DB_HOST=your-production-db-host
+DB_USER=your-production-db-user
+DB_PASSWORD=your-production-db-password
+DB_NAME=your-production-db-name
+
+# JWT Configuration
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+
+# Email Configuration (Gmail)
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-gmail-app-password
+
+# Next.js Configuration
+NEXTAUTH_URL=https://your-app-name.onrender.com
+NEXTAUTH_SECRET=your-nextauth-secret-key
+
+# Production Settings
+NODE_ENV=production

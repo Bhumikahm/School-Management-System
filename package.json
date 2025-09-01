@@ -10,7 +10,8 @@
     "lint": "next lint",
     "db:init": "mysql -u root -p < scripts/init-db.sql",
     "db:test": "node scripts/test-db.js",
-    "setup": "npm install && echo 'Please create .env.local file and run npm run db:test'"
+    "setup": "npm install && echo 'Please create .env.local file and run npm run db:test'",
+    "deploy:render": "npm run build && echo 'Build completed! Deploy to Render now.'"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
